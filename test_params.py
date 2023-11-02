@@ -10,7 +10,7 @@ import pytest
 
 
 @pytest.mark.parametrize("a, b, c, result", [(4, 5, 6, 1), (4, 5, 6, 15), (4, 5, 6, 15)])
-def test_Add(a, b, c, result):
+def test_add(a, b, c, result):
     assert a + b + c == result
 
 
